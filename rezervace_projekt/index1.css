@@ -1,0 +1,16 @@
+table{
+    border: solid black 1px;
+}
+
+th, td{
+    border: solid black 1px;
+}
+
+.today{
+    color: darkkhaki;
+    background-color: lightyellow;
+}
+
+.empty{
+    border: none;
+}
