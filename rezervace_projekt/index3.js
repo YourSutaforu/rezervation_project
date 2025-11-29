@@ -1,13 +1,6 @@
-function calendar_switch(elem){
-    let swich_count = 0
-    element = document.querySelector(elem)
-    if (swich_count == 0){
-        element.innerHTML += `
-        <button class = 'prev_month'></button>
-        <button class = 'next_month'></button>
-        `
-    }
-}
+let swich_count = 0
+let current_date = new Date()
+
 
 function createCalendar(elem, year, month) {
     let days = ["po", "út", "st", "čt", "pá", "so", "ne"];
@@ -65,7 +58,27 @@ function createCalendar(elem, year, month) {
 
     document.querySelector(elem).innerHTML += calendar;
 }
-current_date = new Date()
+function actualize_bottons(elem, elem2, sw_c){
+    let element = document.querySelector(elem)
+    let element2 = document.queryselector(elem2)
+    if (sw_c == 0){
+        element.remove()
+        element2.innerHTML += `
+        <${elem}>
+        <button class = "not_work_butt">knopka</button>
+        <button onclick = "actualize_buttons("div", "body", swich_count)">knopka_vpered</button>
+        </${elem}>`
+    }
+    else{
+        element.remove()
+        element2.innerHTML += `
+        <${elem}>
+        <button onclick = >knopka</button>
+        <button onclick = "actualize_buttons("div", "body", swich_count)">knopka_vpered</button>
+        </${elem}>`
+    }
+    
 
-// пример:
+}
+
 createCalendar("body", current_date.getFullYear(), current_date.getMonth());
