@@ -12,8 +12,9 @@
     <p>den rezervace:</p> <!--сдесь будет генерироваться дата на основе того, на какое число в календаре человек кликнул. потом генерировать с помощью js-->
     <form action = "index.php" method="get">
         <p>žadaný čas:</p>
-        <input type="text" name="hours"> 
-        : <input type="text" name="minutes">
+        <input type="text" name="hours_start" maxlength="2"> : <input type="text" name="minutes_start" maxlength="2"> 
+        - <input type="text" name="hours_end" maxlength="2"> : <input type="text" name="minutes_end" maxlength="2"><br><br>
+        <input type="submit" name="čas rezervace">
     </form>
     <script src="index3.js">
     </script>
