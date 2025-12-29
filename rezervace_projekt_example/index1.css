@@ -1,0 +1,161 @@
+/* ===== БАЗА ===== */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+    color: #222;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+p {
+    margin: 6px 0;
+}
+
+/* ===== ШАПКА ===== */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+/* ===== ССЫЛКИ ===== */
+a {
+    color: #0055aa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== ФОРМЫ ===== */
+form {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+/* ===== ВСТУПИТЕЛЬНАЯ СТРАНИЦА ===== */
+.section {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.important {
+    color: darkred;
+    font-size: 14px;
+}
+
+/* ===== СТРАНИЦЫ С КАЛЕНДАРЁМ ===== */
+.calendar-page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.reservations-list {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.calendar-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* форма слева */
+.reservation-form {
+    width: 40%;
+}
+
+/* календарь справа */
+.calendar-box {
+    width: 60%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* ===== КАЛЕНДАРЬ ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 6px;
+    text-align: center;
+}
+
+th {
+    background: #e0e0e0;
+}
+
+td.empty {
+    background: #f2f2f2;
+}
+
+td.today {
+    background: #bcdcff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td:hover {
+    background: #ddeeff;
+    cursor: pointer;
+}
+
+/* ===== ПРОВЕРКА РЕЗЕРВАЦИЙ ===== */
+.reservations {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* ===== КНОПКИ ===== */
+.non-clackable-button {
+    opacity: 0.5;
+}
+
+
+
+
