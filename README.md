@@ -69,8 +69,8 @@ Projekt je napsán s využitím:
 
 Pro testování můžete vytvořit vlastní účet nebo přidat testovací data v SQL:
 
-uživatel: test
-heslo: test123
+uživatel: `test`
+heslo: `test123`
 
 ---
 
