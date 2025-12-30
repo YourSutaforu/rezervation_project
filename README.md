@@ -45,15 +45,15 @@ Projekt je napsán s využitím:
 *- vyberte `.sql` soubor*  
 *- potvrďte import*
 
-6. Vložte projekt do složky XAMPP:  
-***C:\xampp\htdocs\rezervation_project*** (všechny soubory mimo tento projekt v htdocs lze smazat, nejsou potřebné)
+6. Vložte složku s projektem do složky XAMPP:  
+***C:\xampp\htdocs*** (všechny soubory mimo tento projekt v htdocs lze smazat, nejsou potřebné)
 
 7. Otevřete projekt v prohlížeči:
 ***http://localhost/rezervation_project/index.php***
 
 ---
 
-## 📁 Obsah projektu
+## Obsah projektu
 
 - **index.php** – vstupní stránka pro registraci uživatele  
 - **big_room_calendar.php / normal_room_calendar.php / small_room_calendar.php**  
@@ -65,12 +65,19 @@ Projekt je napsán s využitím:
 
 ---
 
-## Ukázkový uživatel
+## Ukázkový uživatele v rezervace_projekt_example
 
-Pro testování můžete vytvořit vlastní účet nebo přidat testovací data v SQL:
+jsou tam dva, data pro manipulaci a vyzkoušení rezervací:
 
-uživatel: `test`
-heslo: `test123`
+**uživatel 1:**
+*jmeno: `uzivatel_1`*
+*heslo: `lelele`*
+
+**uživatel 2:**
+*jmeno: `uzivatel_2`*
+*heslo: `sisisi`*
+
+nebo vytvořte osobní účet.
 
 ---
 
