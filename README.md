@@ -49,7 +49,7 @@ Projekt je napsán s využitím:
 ***C:\xampp\htdocs*** (všechny soubory mimo tento projekt v htdocs lze smazat, nejsou potřebné)
 
 7. Otevřete projekt v prohlížeči:
-***http://localhost/rezervation_project/index.php***
+***http://localhost/`nazev vaše složky`/index.php***
 
 ---
 
