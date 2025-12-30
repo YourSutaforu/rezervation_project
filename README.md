@@ -49,7 +49,7 @@ Projekt je napsán s využitím:
 ***C:\xampp\htdocs*** (všechny soubory mimo tento projekt v htdocs lze smazat, nejsou potřebné)
 
 7. Otevřete projekt v prohlížeči:
-***http://localhost/`nazev vaše složky`/index.php***
+***http://localhost/rezervace_project/index.php***
 
 ---
 
@@ -65,19 +65,13 @@ Projekt je napsán s využitím:
 
 ---
 
-## Ukázkový uživatele v rezervace_projekt_example
+## Ukázkový uživatel
 
-jsou tam dva, data pro manipulaci a vyzkoušení rezervací:
+příklad ukazkového uživatele:
+jmeno: `test_user`
+heslo: `12345`
 
-**uživatel 1:**
-*jmeno: `uzivatel_1`*
-*heslo: `lelele`*
-
-**uživatel 2:**
-*jmeno: `uzivatel_2`*
-*heslo: `sisisi`*
-
-nebo vytvořte osobní účet.
+nebo jakykoliv jiný.
 
 ---
 
