@@ -39,7 +39,7 @@ Projekt je napsán s využitím:
 ***http://localhost/phpmyadmin***
 
 4. Vytvořte novou databázi s názvem `reservations`.  
-5. Importujte SQL soubor ( `reservations`/`reservations_example` `.sql`) přes phpMyAdmin:  
+5. Importujte SQL soubor ( `reservations.sql`) přes phpMyAdmin:  
 *- klikněte na databázi*  
 *- záložka **Import***  
 *- vyberte `.sql` soubor*  
