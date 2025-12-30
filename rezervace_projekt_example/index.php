@@ -86,7 +86,7 @@ if(isset($_POST["Submit"])){
 <div id="rovnou_vyzkouset" class="section">
     <p>Už máš všechno přečteno a hotovo? Tak tady máš výběr prostorů:</p>
     <p>
-        <a href="./big_room_calendar.php target="_blank"velka mistnost (80 m^2)</a>
+        <a href="./big_room_calendar.php target="_blank">velka mistnost (80 m^2)</a>
         <a href="./normal_room_calendar.php" target="_blank">stredni mistnost (50 m^2)</a>
         <a href="./small_room_calendar.php" target="_blank">mala mistnost (20 m^2)</a>
     </p>
@@ -97,4 +97,5 @@ if(isset($_POST["Submit"])){
 </div>
 </body>
 </html>
+
 
