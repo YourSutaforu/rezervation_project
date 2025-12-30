@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "reservations_example");
+$conn = mysqli_connect("localhost", "root", "", "reservations");
 
 $pers_name = '';
 $pers_password = '';
@@ -149,4 +149,5 @@ if (isset($_POST["res_check_Submit"])) {
     <a href="./index.php">Uvodní stránka</a>
     </div>
 </body>
+
 </html>
