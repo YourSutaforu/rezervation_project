@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "reservations_example");
+$conn = mysqli_connect("localhost", "root", "", "reservations");
 
 $reservation_date = '';
 $person_name = '';
@@ -265,3 +265,4 @@ if (isset($_POST['normal_room_res_Submit'])) {
 </div>
 </body>
 </html>
+
