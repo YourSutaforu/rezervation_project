@@ -86,14 +86,15 @@ if(isset($_POST["Submit"])){
 <div id="rovnou_vyzkouset" class="section">
     <p>Už máš všechno přečteno a hotovo? Tak tady máš výběr prostorů:</p>
     <p>
-        <a href="./big_room_calendar.php">velka mistnost (80 m^2)</a>
-        <a href="./normal_room_calendar.php">stredni mistnost (50 m^2)</a>
-        <a href="./small_room_calendar.php">mala mistnost (20 m^2)</a>
+        <a href="./big_room_calendar.php target="_blank"velka mistnost (80 m^2)</a>
+        <a href="./normal_room_calendar.php" target="_blank">stredni mistnost (50 m^2)</a>
+        <a href="./small_room_calendar.php" target="_blank">mala mistnost (20 m^2)</a>
     </p>
 </div>
 <div id="overeni_rezervaci" class="section">
     <p>Pokud už jsi vytvořel rezervaci a chceš ji zkontrolovat nebo vymazat, mužeš to udělat tady:</p>
-    <a href="./reservation_check.php">ověření rezervaci</a>
+    <a href="./reservation_check.php" target="_blank">ověření rezervaci</a>
 </div>
 </body>
 </html>
+
