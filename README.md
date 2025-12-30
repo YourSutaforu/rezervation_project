@@ -46,7 +46,7 @@ Projekt je napsán s využitím:
 *- potvrďte import*
 
 6. Vložte projekt do složky XAMPP:  
-***C:\xampp\htdocs\rezervation_project***
+***C:\xampp\htdocs\rezervation_project*** (všechny soubory mimo tento projekt v htdocs lze smazat, nejsou potřebné)
 
 7. Otevřete projekt v prohlížeči:
 ***http://localhost/rezervation_project/index.php***
