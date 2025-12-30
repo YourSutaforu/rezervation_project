@@ -86,7 +86,6 @@ nebo vytvořte osobní účet.
 - Projekt je určený především pro lokální běh s XAMPP.  
 - Neobsahuje pokročilé zabezpečení (CSRF / SQL prepared statements), ale logika funguje pro učební účely.  
 - Uživatelé se mohou registrovat a rezervovat více místností.
-
 - elegantní responzivní UI  
 - blokování již zarezervovaných časů v kalendáři
 
