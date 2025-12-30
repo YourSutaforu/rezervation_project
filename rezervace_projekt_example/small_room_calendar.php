@@ -196,7 +196,7 @@ if (isset($_POST['small_room_res_Submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>rezervace mistnosti 20^2</title>
     <link rel="stylesheet" href="index1.css">
 <body>
 <div class="calendar-page">
@@ -264,4 +264,5 @@ if (isset($_POST['small_room_res_Submit'])) {
 </div>
 </body>
 </html>
+
 
