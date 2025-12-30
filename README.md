@@ -85,4 +85,4 @@ heslo: `test123`
 
 ---
 
-✨ **Děkuju za použití Rezervation Project!**
+**Děkuju za použití mého projektu!**
